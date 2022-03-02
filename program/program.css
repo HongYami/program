@@ -233,19 +233,31 @@ body {
 .info {
   border-radius: 25px 25px;
   width: 370px;
-  height: 950px;
   padding: 0px 50px;
   margin: 0px 20px;
+  position: relative;
+  padding-bottom: 50px;
 }
 .info:hover {
   outline: 1.6px solid #ffb703;
 }
+.program-info-text-area p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+p.mb-20 {
+  margin-bottom: 20px;
+}
+
 .bottom-img img {
   width: 280px;
   margin: 30px auto;
 }
 
 .program-btn .btn {
+  position: absolute;
+  bottom: 0;
   margin: 20px auto;
   height: 2.7em;
   width: 18em;
